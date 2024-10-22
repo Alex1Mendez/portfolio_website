@@ -25,27 +25,48 @@
         }
 
 
-        header {
-    background-image: url('galaxies.png'); 
+      header {
+    background-image: url('galaxies.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    color: white;
     text-align: center;
     padding: 60px 20px;
-    background-repeat: no-repeat;
+    min-height: 400px;  /* Ensure enough height to show the image */
+    position: relative;
 }
-          
 
-        header h1 {
-            font-size: 48px;
-            font-weight: 700;
-            letter-spacing: 1px;
-        }
+/* Optional overlay to darken the background and make text readable */
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);  /* Darken the image */
+    z-index: 1;
+}
 
-        header p {
-            font-size: 18px;
-            margin-top: 10px;
-            font-weight: 300;
-        }
+header h1, header p {
+    position: relative;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  /* Add text shadow for readability */
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  /* Add text shadow for readability */
+}
+
 
         nav {
             background-color: #000;
