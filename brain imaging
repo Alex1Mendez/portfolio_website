@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Imaging and Neuroscience</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #007aff;
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007aff;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Brain Imaging and Neuroscience</h1>
+    <p>This project involves using Machine Learning algorithms to analyze fMRI or EEG data to identify brain patterns associated with different cognitive states or diseases like Alzheimer's and Parkinson's.</p>
+    
+    <p>Key technologies used: Python, scikit-learn, Pandas, fMRI datasets, EEG signal processing.</p>
+
+    <a href="index.html" class="back-link">Back to Portfolio</a>
+
+</body>
+
+</html>
