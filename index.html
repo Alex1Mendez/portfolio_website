@@ -115,6 +115,8 @@
             width: calc(33% - 30px);
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease-in-out;
+            text-decoration: none;
+            color: inherit; /* Keep text color on hover */
         }
 
         .project:hover {
@@ -131,16 +133,6 @@
         .project p {
             font-size: 16px;
             color: #666;
-        }
-
-        .project a {
-            text-decoration: none;
-            color: #007aff;
-            font-weight: bold;
-        }
-
-        .project a:hover {
-            text-decoration: underline;
         }
 
         /* Contact Section */
@@ -233,21 +225,18 @@
         <section id="projects">
             <h2>Projects</h2>
             <div class="projects">
-                <div class="project">
+                <a href="project1.html" class="project">
                     <h3>Brain Imaging and Neuroscience</h3>
-                    <p>Used Machine Learning algorithms to analyze fMRI or EEG data to identify brain patterns associated with different cognitive states or diseases like Alzheimer's and Parkinson's</p>
-                    <a href="project1.html">View Project</a>
-                </div>
-                <div class="project">
+                    <p>Used Machine Learning algorithms to analyze fMRI or EEG data to identify brain patterns associated with different cognitive states or diseases like Alzheimer's and Parkinson's.</p>
+                </a>
+                <a href="project2.html" class="project">
                     <h3>Sleep and Mental Health Analysis</h3>
                     <p>Analysed sleep patterns using wearable device data to predict mental health conditions such as anxiety or depression.</p>
-                    <a href="project2.html">View Project</a>
-                </div>
-                <div class="project">
+                </a>
+                <a href="project3.html" class="project">
                     <h3>Genomics and Health</h3>
                     <p>Used public data from platforms like GenBank and Ensembl, to work on DNA sequence analysis and predict genetic predisposition to certain types of cancer.</p>
-                    <a href="project3.html">View Project</a>
-                </div>
+                </a>
             </div>
         </section>
 
